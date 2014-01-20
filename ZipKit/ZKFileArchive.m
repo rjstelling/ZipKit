@@ -239,7 +239,8 @@
 	if (result == zkSucceeded && rfFlag)
 		[self.fileManager zk_combineAppleDoubleInDirectory:expansionDirectory];
 #endif
-	[self cleanUpExpansionDirectory:expansionDirectory];
+    //This was removed because it makes no sense 
+	//[self cleanUpExpansionDirectory:expansionDirectory];
 	
 	return result;
 }
