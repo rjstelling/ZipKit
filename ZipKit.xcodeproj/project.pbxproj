@@ -83,8 +83,6 @@
 		CB6F0AD217484C4600F91524 /* ZKCDTrailer64Locator.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F0A0A17483A9A00F91524 /* ZKCDTrailer64Locator.m */; };
 		CB6F0AD317484C4600F91524 /* ZKLFHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F0A0E17483A9A00F91524 /* ZKLFHeader.m */; };
 		CB6F0AD417484C4600F91524 /* ZKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6F0A0F17483A9A00F91524 /* ZKLog.m */; };
-		E8B36F6C17FB09EE005CD9D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B36F6B17FB09EE005CD9D9 /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
-		E8B36F6E17FB0A00005CD9D9 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E8B36F6D17FB0A00005CD9D9 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -177,8 +175,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B36F6E17FB0A00005CD9D9 /* libz.dylib in Frameworks */,
-				E8B36F6C17FB09EE005CD9D9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,7 +645,7 @@
 				DSTROOT = /tmp/touchzipkit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZipKit/ZipKit-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -664,7 +660,7 @@
 				DSTROOT = /tmp/touchzipkit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZipKit/ZipKit-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -729,7 +725,7 @@
 				DSTROOT = /tmp/touchzipkit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZipKit/ZipKit-Prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
