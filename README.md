@@ -45,3 +45,7 @@ ZipKit is released under the BSD license. It's in COPYING.TXT in the project. Ac
 This project was originally hosted at [Bitbucket](https://bitbucket.org/kolpanic/zipkit). It was transferred using [fast-export](https://github.com/frej/fast-export), and all open issues were manually copied here.
 
 If you need to support older versions of OS X or iOS, you can get the last BitBucket version by cloning this repository, then checking out tag 0.9.
+
+---
+
+[Contact](https://agent-mailbox.richardstelling.com/#contact)
